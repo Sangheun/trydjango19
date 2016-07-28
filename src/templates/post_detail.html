@@ -18,6 +18,9 @@
     <p>Author: {{ instance.user.get_full_name }}</p>
     {% endif %}
 
+    <p><div class="fb-like" data-href="{{ request.build_absolute_uri }}" data-layout="standard" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div></p>
+    <hr />
+<!--     <p>
     <a href="https://www.facebook.com/sharer/sharer.php?u={{ request.build_absolute_uri }}">
     Facebook
     </a>
@@ -28,9 +31,13 @@
     </a>
 
     <a href='https://plus.google.com/share?url={{ request.build_absolute_uri }}'>Google plus</a>
+    </p>
 
-    {{instance.content|linebreaks}}<br />
-    <br />
+ -->    {{instance.content|linebreaks}}
+<hr />
+
+<div class="fb-comments" data-href="{{ request.build_absolute_uri }}" data-numposts="5"></div>
+
 
 </div>
 {% endblock content %}
