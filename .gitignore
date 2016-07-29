@@ -4,3 +4,8 @@ lib/
 *.py[cod]
 *.sqlite3
 pip-selfcheck.json
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml

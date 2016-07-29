@@ -4,6 +4,26 @@
 		"selected_items":
 		[
 			[
+				"file_",
+				"file_list"
+			],
+			[
+				"de",
+				"deconstructible"
+			],
+			[
+				"__",
+				"__init__"
+			],
+			[
+				"lng",
+				"lnglat_validator"
+			],
+			[
+				"min",
+				"min_length"
+			],
+			[
 				"slu",
 				"slugify"
 			],
@@ -78,10 +98,6 @@
 			[
 				"person",
 				"person_set"
-			],
-			[
-				"de",
-				"default"
 			],
 			[
 				"Choi",
@@ -500,74 +516,18 @@
 	"buffers":
 	[
 		{
-			"file": "src/trydjango19/settings.py",
+			"file": "src/posts/views.py",
 			"settings":
 			{
-				"buffer_size": 3474,
+				"buffer_size": 3246,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/static/css/base.css",
-			"settings":
-			{
-				"buffer_size": 26,
-				"line_ending": "Windows"
 			}
 		},
 		{
 			"file": "src/templates/post_list.html",
 			"settings":
 			{
-				"buffer_size": 1357,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/posts/models.py",
-			"settings":
-			{
-				"buffer_size": 1649,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/posts/migrations/0001_initial.py",
-			"settings":
-			{
-				"buffer_size": 1202,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/posts/admin.py",
-			"settings":
-			{
-				"buffer_size": 375,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/crud.md",
-			"settings":
-			{
-				"buffer_size": 116,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/posts/views.py",
-			"settings":
-			{
-				"buffer_size": 2979,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/templates/messages_display.html",
-			"settings":
-			{
-				"buffer_size": 282,
+				"buffer_size": 1457,
 				"line_ending": "Windows"
 			}
 		},
@@ -575,15 +535,7 @@
 			"file": "src/templates/base.html",
 			"settings":
 			{
-				"buffer_size": 1227,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "src/templates/post_form.html",
-			"settings":
-			{
-				"buffer_size": 324,
+				"buffer_size": 1567,
 				"line_ending": "Windows"
 			}
 		},
@@ -591,33 +543,16 @@
 			"file": "src/templates/post_detail.html",
 			"settings":
 			{
-				"buffer_size": 675,
+				"buffer_size": 1246,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "문학사2\n뇌구기\n창실2\n디사혁\n웹프\n",
+			"file": "src/posts/models.py",
 			"settings":
 			{
-				"buffer_size": 20,
-				"line_ending": "Windows",
-				"name": "문학사2"
-			}
-		},
-		{
-			"file": "src/trydjango19/urls.py",
-			"settings":
-			{
-				"buffer_size": 1098,
+				"buffer_size": 1748,
 				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "src/posts/urls.py",
-			"settings":
-			{
-				"buffer_size": 419,
-				"line_ending": "Windows"
 			}
 		},
 		{
@@ -695,12 +630,47 @@
 	"expanded_folders":
 	[
 		"/E/trydjango19",
-		"/E/trydjango19/src",
-		"/E/trydjango19/src/posts",
-		"/E/trydjango19/src/static"
+		"/E/Udacity"
 	],
 	"file_history":
 	[
+		"/E/Udacity/re_name.py",
+		"/E/Udacity/break_time.py",
+		"/E/LocalServer/index.html",
+		"/E/snuway/src/blog/admin.py",
+		"/E/snuway/src/blog/models.py",
+		"/E/snuway/src/snuway/urls.py",
+		"/E/snuway/src/snuway/settings.py",
+		"/E/trydjango19/src/trydjango19/settings.py",
+		"/E/trydjango19/src/trydjango19/urls.py",
+		"/E/trydjango19/src/posts/urls.py",
+		"/E/trydjango19/src/posts/admin.py",
+		"/E/trydjango19/src/posts/models.py",
+		"/E/trydjango19/src/posts/views.py",
+		"/E/trydjango19/src/templates/post_list.html",
+		"/E/trydjango19/src/templates/post_form.html",
+		"/E/trydjango19/src/posts/forms.py",
+		"/E/trydjango19/src/templates/post_detail.html",
+		"/E/trydjango19/src/templates/base.html",
+		"/E/trydjango19/src/templates/messages_display.html",
+		"/C/Users/상흔/Desktop/AWS.txt",
+		"/E/trydjango19/.gitignore",
+		"/E/trydjango19/src/crud.md",
+		"/E/trydjango19/src/posts/migrations/0001_initial.py",
+		"/E/trydjango19/src/static/css/base.css",
+		"/E/programming-dev-5th/programming/blog/validators.py",
+		"/E/programming-dev-5th/programming/blog/admin.py",
+		"/E/programming-dev-5th/programming/blog/fields.py",
+		"/E/programming-dev-5th/programming/blog/models.py",
+		"/E/trydjango19/.ebextensions/03_python.config",
+		"/E/trydjango19/.ebextensions/02_packages.config",
+		"/E/trydjango19/.ebextensions/01_trydjango19.config",
+		"/E/programming-dev-5th/decorators4.py",
+		"/E/trydjango19/src/posts/templatetags/__init__.py",
+		"/E/programming-dev-5th/decorators3.py",
+		"/E/programming-dev-5th/decorators1.py",
+		"/E/trydjango19/src/posts/templatetags/urlify.py",
+		"/E/programming-dev-5th/decorators2.py",
 		"/E/trydjango19/Lib/site-packages/django/contrib/staticfiles/templatetags/staticfiles.py",
 		"/E/trydjango19/src/templates/index.html",
 		"/E/trydjango19/src/manage.py",
@@ -716,10 +686,6 @@
 		"/C/Users/상흔/Desktop/googlemapapi.html",
 		"/E/KUSTA_NEW/KUSTA/blog/admin.py",
 		"/E/KUSTA_NEW/KUSTA/blog/models.py",
-		"/E/programming-dev-5th/decorators2.py",
-		"/E/programming-dev-5th/decorators4.py",
-		"/E/programming-dev-5th/decorators3.py",
-		"/E/programming-dev-5th/decorators1.py",
 		"/E/KUSTA/KUSTA/blog/views.py",
 		"/E/KUSTA/KUSTA/blog/templates/blog/index.html",
 		"/E/KUSTA_NEW/KUSTA/blog/urls.py",
@@ -773,13 +739,11 @@
 		"/E/programming-dev-5th/programming/webtoon/admin.py",
 		"/E/programming-dev-5th/programming/webtoon/models.py",
 		"/E/programming-dev-5th/programming/pokemon/admin.py",
-		"/E/programming-dev-5th/programming/blog/models.py",
 		"/E/programming-dev-5th/programming/programming/settings.py",
 		"/E/programming-dev-5th/programming/webtoon/urls.py",
 		"/D/p_rogramming/naver_crawl.py",
 		"/E/programming-dev-5th/programming/test_webtoon_crawl.py",
 		"/E/programming-dev-5th/programming/test_webtoon.py",
-		"/E/programming-dev-5th/programming/blog/admin.py",
 		"/C/Users/상흔/Desktop/queryset.py",
 		"/E/programming-dev-5th/programming/blog/templates/blog/about.html",
 		"/E/programming-dev-5th/programming/blog/migrations/0001_initial.py",
@@ -797,38 +761,7 @@
 		"/E/livecoding-demo/programming-5th-demo/blog/widgets.py",
 		"/E/programming-dev-5th/programming/blog/tests.py",
 		"/E/programming-dev-5th/programming/.gitignore",
-		"/E/p_rogramming/dev/programming/programming/urls.py",
-		"/E/p_rogramming/dev/programming/blog/templates/blog/post_list.html",
-		"/E/p_rogramming/dev/programming/programming/settings.py",
-		"/E/p_rogramming/dev/programming/blog/views.py",
-		"/E/p_rogramming/dev/programming/test_regex.py",
-		"/E/p_rogramming/dev/ex1/templates/admin/base_site.html",
-		"/E/p_rogramming/dev/ex1/polls/static/polls/style.css",
-		"/C/python/Lib/site-packages/django/contrib/admin/templates/admin/base_site.html",
-		"/E/p_rogramming/Day_04/index.html",
-		"/E/p_rogramming/dev/ex1/polls/tests.py",
-		"/E/p_rogramming/Day_04/css/styles.css",
-		"/C/Users/상흔/Desktop/my latest WeakAuras.lua",
-		"/C/Program Files/World of Warcraft/WTF/Account/31156499#0/SavedVariables/WeakAuras.lua",
-		"/C/Users/상흔/Desktop/input.html",
-		"/E/OneDrive/학습/프로그래밍 공부/javascript&jQuery/ver_20151015_jsjq1/01부_자바스크립트코어_문법기초/부록02_초보자를위한_jQuery/lesson02_jQuery사용법/01_complete/01_예제01_jQuery준비.html",
-		"/E/OneDrive/학습/프로그래밍 공부/javascript&jQuery/ver_20151015_jsjq1/01부_자바스크립트코어_문법기초/01장_변수/lesson07_변수값_확인하기/01_complete/04_예제04_console.log.html",
-		"/E/OneDrive/학습/프로그래밍 공부/javascript&jQuery/ver_20151015_jsjq1/01부_자바스크립트코어_문법기초/01장_변수/lesson03_변수에저장할수있는데이터종류/01_complete/01_예제01_숫자데이터_나이몸무게.html",
-		"/E/p_rogramming/Day_05/tryhelloworld.py",
-		"/E/p_rogramming/Day_04/profile.html",
-		"/D/dev/study0601/blog/views.py",
-		"/E/p_rogramming/Day_04/sign_in.html",
-		"/D/mylove/index.html",
-		"/C/Users/상흔/Desktop/landingzero_334/index.html",
-		"/D/p_rogramming/Day_04/index.html",
-		"/D/mylove/trip_movie.html",
-		"/C/Users/상흔/Desktop/landingzero_334/css/styles.css",
-		"/D/mylove/profile.html",
-		"/C/Users/상흔/Desktop/landingzero_334/js/scripts.js",
-		"/D/p_rogramming/mylove/trip_movie.html",
-		"/D/p_rogramming/Day_04/trip_photo.html",
-		"/D/p_rogramming/mylove/trip_photo.html",
-		"/D/p_rogramming/mylove/base.html"
+		"/E/p_rogramming/dev/programming/programming/urls.py"
 	],
 	"find":
 	{
@@ -847,6 +780,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"DEBUG",
+			"templates",
+			"awsbean",
 			"http://CodingForEntrepreneurs.com/",
 			"Share ON ",
 			"id",
@@ -971,10 +907,7 @@
 			"btn",
 			"col-sm",
 			"head",
-			"img",
-			"top-text",
-			"hover",
-			"btn"
+			"img"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -992,24 +925,24 @@
 	"groups":
 	[
 		{
-			"selected": 12,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "src/trydjango19/settings.py",
+					"file": "src/posts/views.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3474,
+						"buffer_size": 3246,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3406,
-								3406
+								449,
+								449
 							]
 						],
 						"settings":
@@ -1017,94 +950,6 @@
 							"syntax": "Packages/Python/Python.sublime-syntax",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1854.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 9,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "src/static/css/base.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 26,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/CSS/CSS.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 13,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "src/templates/post_list.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1357,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								374,
-								269
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "src/posts/models.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1649,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1114,20 +959,110 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "src/posts/migrations/0001_initial.py",
+					"buffer": 1,
+					"file": "src/templates/post_list.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1202,
+						"buffer_size": 1457,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								736,
-								736
+								1457,
+								1457
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 424.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/templates/base.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1567,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1013,
+								1013
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 298.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/templates/post_detail.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1246,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1118,
+								1118
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 298.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/posts/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1748,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								421,
+								421
 							]
 						],
 						"settings":
@@ -1137,307 +1072,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 64.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 15,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "src/posts/admin.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 375,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								178,
-								178
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 18.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 14,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "src/crud.md",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 116,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								116,
-								116
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
-						},
-						"translation.x": 0.0,
 						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 12,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "src/posts/views.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2979,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1244,
-								1244
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 154.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 8,
-					"file": "src/templates/messages_display.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 282,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								208,
-								208
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "src/templates/base.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1227,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								164,
-								164
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "src/templates/post_form.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 324,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								167,
-								167
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 18.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "src/templates/post_detail.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 675,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								675,
-								675
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 244.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 20,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								20,
-								20
-							]
-						],
-						"settings":
-						{
-							"auto_name": "문학사2",
-							"default_dir": "E:\\trydjango19",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 13,
-					"file": "src/trydjango19/urls.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1098,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								624,
-								624
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 44.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 14,
-					"file": "src/posts/urls.py",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 419,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								419,
-								419
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/Python/Python.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 15,
+					"buffer": 5,
 					"file": "src/posts/forms.py",
 					"semi_transient": false,
 					"settings":
@@ -1449,20 +1091,19 @@
 						"selection":
 						[
 							[
-								215,
-								215
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"open_with_edit": true,
 							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -1518,43 +1159,83 @@
 		[
 			[
 				"post_de",
-				"src\\templates\\post_detail.html"
+				"trydjango19\\src\\templates\\post_detail.html"
 			],
 			[
-				"views",
-				"src\\posts\\views.py"
-			],
-			[
-				"models",
-				"src\\posts\\models.py"
-			],
-			[
-				"urls",
-				"src\\posts\\urls.py"
+				"base.html",
+				"trydjango19\\src\\templates\\base.html"
 			],
 			[
 				"",
-				"src\\trydjango19\\urls.py"
+				"trydjango19\\src\\templates\\post_list.html"
 			],
 			[
 				"post_list",
-				"src\\templates\\post_list.html"
+				"trydjango19\\src\\templates\\post_list.html"
 			],
 			[
-				"post_form",
-				"src\\templates\\post_form.html"
+				"views",
+				"trydjango19\\src\\posts\\views.py"
+			],
+			[
+				"post_detail",
+				"trydjango19\\src\\templates\\post_detail.html"
 			],
 			[
 				"forms",
-				"src\\posts\\forms.py"
+				"trydjango19\\src\\posts\\forms.py"
+			],
+			[
+				"models",
+				"trydjango19\\src\\posts\\models.py"
+			],
+			[
+				"urls",
+				"trydjango19\\src\\trydjango19\\urls.py"
 			],
 			[
 				"settings",
-				"src\\trydjango19\\settings.py"
+				"snuway\\src\\snuway\\settings.py"
+			],
+			[
+				"admin",
+				"trydjango19\\src\\posts\\admin.py"
+			],
+			[
+				"moels",
+				"trydjango19\\src\\posts\\models.py"
+			],
+			[
+				"post_form",
+				"trydjango19\\src\\templates\\post_form.html"
+			],
+			[
+				"vali",
+				"programming\\blog\\validators.py"
+			],
+			[
+				"va",
+				"programming\\blog\\validators.py"
+			],
+			[
+				"fields",
+				"programming\\blog\\fields.py"
+			],
+			[
+				"field",
+				"programming\\blog\\fields.py"
+			],
+			[
+				"modes",
+				"programming\\blog\\models.py"
 			],
 			[
 				"post",
 				"src\\templates\\post_detail.html"
+			],
+			[
+				"urli",
+				"src\\posts\\templatetags\\urlify.py"
 			],
 			[
 				"base",
@@ -1587,10 +1268,6 @@
 			[
 				"sett",
 				"src\\trydjango19\\settings.py"
-			],
-			[
-				"admin",
-				"src\\posts\\admin.py"
 			],
 			[
 				"manage",
@@ -1765,10 +1442,6 @@
 				"shop\\urls.py"
 			],
 			[
-				"moels",
-				"shop\\models.py"
-			],
-			[
 				"admi",
 				"shop\\admin.py"
 			],
@@ -1815,10 +1488,6 @@
 			[
 				"basebase",
 				"C:\\Users\\상흔\\Desktop\\basebase.html"
-			],
-			[
-				"post_detail",
-				"blog\\templates\\blog\\post_detail.html"
 			],
 			[
 				"seti",
@@ -1935,10 +1604,6 @@
 			[
 				"post_li",
 				"askdjangoazurewebapp2\\blog\\templates\\blog\\post_list.html"
-			],
-			[
-				"modes",
-				"askdjangoazurewebapp2\\blog\\models.py"
 			],
 			[
 				"asdk",
