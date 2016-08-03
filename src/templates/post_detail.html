@@ -13,7 +13,9 @@
     {% if instance.image %}
     <img src="{{ instance.image.url }}" class="img-responsive" />
     {% endif %}
-    <h1>{{ title }} <small>{% if instance.draft %}<span style="color:red;">Draft</span>{% endif %} {{instance.publish}}</small></h1>
+    <h1>{{ title }}<small>{{instance.publish}}</small></h1>
+    {% if instance.draft %}<h3 style="color:red;">Staff Only: Draft</h3>{% endif %}
+    {% if instance.publish > today %}<h3 style="color:blue;">Staff Only: Future Post</h3>{% endif %}
     {% if instance.user.get_full_name %}
     <p>Author: {{ instance.user.get_full_name }}</p>
     {% endif %}
@@ -33,11 +35,16 @@
     <a href='https://plus.google.com/share?url={{ request.build_absolute_uri }}'>Google plus</a>
     </p>
 
- -->    {{instance.content|linebreaks}}
-<hr />
+ -->
+<div class="row">
+<div class="col-sm-12">
+
+    <div class="post-detail-item"> {{instance.get_markdown}}
+    </div>
+    <hr />
 
 <div class="fb-comments" data-href="{{ request.build_absolute_uri }}" data-numposts="5"></div>
 
-
+</div>
 </div>
 {% endblock content %}

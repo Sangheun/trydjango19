@@ -1,9 +1,10 @@
 from urllib.parse import quote_plus
-
+from django.db.models import Q
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.contrib import messages
 from django.http import HttpResponse, HttpResponseRedirect, Http404
 from django.shortcuts import get_object_or_404, render, redirect
+from django.utils import timezone
 
 from .forms import PostForm
 from .models import Post
@@ -30,18 +31,36 @@ def post_create(request):
 
 
 def post_detail(request, slug):
+    today = timezone.now().date()
     # instance = Post.objects.get(slug=100)
     instance = get_object_or_404(Post, slug=slug)
+    if instance.publish > timezone.now().date() or instance.draft:
+        if not request.user.is_staff or not request.user.is_superuser:
+            raise Http404
     share_string = quote_plus(instance.content)
     context = {
         "title":instance.title,
         "instance": instance,
         "share_string": share_string,
+        "today":today,
     }
     return render(request, 'post_detail.html', context )
 
 def post_list(request):
-    queryset_list = Post.objects.all() #.order_by("-timestamp")
+    today = timezone.now().date()
+    queryset_list = Post.objects.active() #.order_by("-timestamp")
+    if request.user.is_staff or request.user.is_superuser:
+        queryset_list = Post.objects.all()
+
+    query = request.GET.get("q")
+    if query:
+        queryset_list = queryset_list.filter(
+            Q(title__icontains=query)|
+            Q(content__icontains=query)|
+            Q(user__first_name__icontains=query)|
+            Q(user__last_name__icontains=query)
+            ).distinct()
+
     paginator = Paginator(queryset_list, 2) # Show 25 queryset per page
     page_request_var = "page"
     page = request.GET.get(page_request_var)
@@ -58,6 +77,7 @@ def post_list(request):
         "object_list":queryset,
         "title":"List",
         "page_request_var":page_request_var,
+        "today":today,
     }
 
     # if request.user.is_authenticated():

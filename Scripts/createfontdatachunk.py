@@ -1,4 +1,4 @@
-#!e:\trydjango19\scripts\python.exe
+#!e:\blog\scripts\python.exe
 from __future__ import print_function
 import base64
 import os

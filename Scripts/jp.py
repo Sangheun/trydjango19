@@ -1,4 +1,4 @@
-#!e:\trydjango19\scripts\python.exe
+#!e:\blog\scripts\python.exe
 
 import sys
 import json

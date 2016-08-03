@@ -1,6 +1,6 @@
-#!e:\trydjango19\scripts\python.exe
+#!e:\blog\scripts\python.exe
 
-# Author: 
+# Author:
 # Contact: grubert@users.sf.net
 # Copyright: This module has been placed in the public domain.
 

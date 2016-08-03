@@ -1,4 +1,4 @@
-#!e:\trydjango19\scripts\python.exe
+#!e:\blog\scripts\python.exe
 """PILdriver, an image-processing calculator using PIL.
 
 An instance of class PILDriver is essentially a software stack machine

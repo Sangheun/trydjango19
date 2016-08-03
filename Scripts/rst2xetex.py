@@ -1,4 +1,4 @@
-#!e:\trydjango19\scripts\python.exe
+#!e:\blog\scripts\python.exe
 
 # $Id: rst2xetex.py 7038 2011-05-19 09:12:02Z milde $
 # Author: Guenter Milde
